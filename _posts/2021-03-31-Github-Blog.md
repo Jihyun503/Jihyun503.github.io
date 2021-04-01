@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Github Blog 제작"
+title:  "Github Blog 만들기"
 date: 2021-03-31
 categories: Git Jekyll Ruby
 ---
@@ -46,7 +46,44 @@ Downloda ZIP !
 
 
 
-다운 받은 폴더를 열어서 모든 파일을 복사, 원격 저장소와 연결시킨 폴더로 붙여넣기
+다운 받은 폴더를 열어서 모든 파일을 복사, 원격 저장소와 연결시킨 폴더로 붙여넣기 해준다.
 
-https://rubyinstaller.org/downloads/
+<br>
+
+이제 루비를 다운 받아야한다.
+
+[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
+
+
+
+![image](https://user-images.githubusercontent.com/42509019/113312936-be51f200-9345-11eb-9b7f-d15f20fd8502.png)
+
+필자는 2.7.2 버전을 다운 받았다. 다운로드하여 설치까지 완료하자.
+
+<br>
+
+```
+gem install jekyll bundler
+bundle install
+```
+
+루비가 다 설치 되었다면 cmd창을 열어서 원격저장소 경로로 이동한다.
+
+그리고 위 명령어를 입력하면 설치가 완료될 것이다.
+
+<br>
+
+```
+bundle exec jekyll serve
+```
+
+![image](https://user-images.githubusercontent.com/42509019/113317938-e4c65c00-934a-11eb-9cc5-36b98e6d740d.png)
+
+이제 http://127.0.0.1:4000 를 접속하면 내가 다운 받은 테마와 같은 웹페이지가 뜨는 걸 확인 할 수 있다. github에 푸시하기 전에 로컬에서 작업하고 확인할 수 있는 환경이 구성되었다.
+
+<br>
+
+이제 파일들을 내가 원하는 스타일에 맞춰서 커스터마이징한 후 깃헙에 푸시하면 블로그 완성!
+
+<br>
 
