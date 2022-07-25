@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "[Selenium] 'WebDriver' object has no attribute 'find_element_by ...' 에러 "
+title:  "[Selenium] 'WebDriver' object has no attribute 'find_element_by ...' 에러"
 date: 2022-07-19
 categories: Python Selenium
 
